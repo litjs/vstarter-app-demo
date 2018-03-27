@@ -1,0 +1,15 @@
+{
+  "name": "vstarter-demo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "dev": "gulp --debug",
+    "build": "gulp -p"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vstarter": "^1.0.0"
+  }
+}

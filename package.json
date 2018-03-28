@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vstarter": "^1.0.0"
+    "vstarter": "^1.0.2"
   }
 }

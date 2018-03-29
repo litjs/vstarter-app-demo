@@ -18,6 +18,18 @@
                         title: 'Name',
                         key: 'name'
                     },
+                  {
+                    title: 'button',
+                    key: 'btn',
+                    render:(h, {row, index})=>{
+                      var Button = Vue.component('Button')
+
+                      return (<div>
+                          <Button type="primary" v-show={index % 2 == 0}>Primary</Button>
+                          <Button type="warning" v-show={index % 2 == 1}>Warning</Button>
+                      </div>)
+                    }
+                  },
                     {
                         title: 'Status',
                         key: 'status',

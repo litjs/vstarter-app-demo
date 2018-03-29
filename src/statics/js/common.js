@@ -2,6 +2,9 @@
   var gRouter = null
   var gConfig = null
   var gResource = null
+
+  Vue.config.silent = true
+
   window.Utils = {}
 
   window.VStarter.beforeInit = function (transition) {
